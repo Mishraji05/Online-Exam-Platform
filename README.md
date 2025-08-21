@@ -143,6 +143,8 @@ Authorization: Bearer <jwt-token>
 Get Specific Result
 httpGET /api/results/:resultId
 Authorization: Bearer <jwt-token>
+
+
 📁 Project Structure
 exam-platform/
 ├── README.md
