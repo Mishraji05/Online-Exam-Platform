@@ -66,7 +66,7 @@ npm install
 Create backend environment file (.env)
 
 envPORT=5000
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/exam-platform
+MONGODB_URI=Give you MongoDB URL Here
 JWT_SECRET=your-super-secret-jwt-key-minimum-32-characters-long
 NODE_ENV=development
 
