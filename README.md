@@ -146,54 +146,102 @@ Authorization: Bearer <jwt-token>
 
 
 📁 Project Structure
+
 exam-platform/
+|
 ├── README.md
+|
 ├── backend/
+|   |
 │   ├── package.json
+|   |
 │   ├── server.js
+|   |
 │   ├── .env
+|   |
 │   ├── models/
+|   |   |
 │   │   ├── User.js
+|   |   |
 │   │   ├── Question.js
+|   |   |
 │   │   └── Result.js
+|   |
 │   ├── routes/
+|   |   |
 │   │   ├── auth.js
+|   |   |
 │   │   ├── exam.js
+|   |   |
 │   │   └── results.js
+|   |
 │   ├── controllers/
+|   |   |
 │   │   ├── authController.js
+|   |   |
 │   │   ├── examController.js
+|   |   |
 │   │   └── resultController.js
+|   |
 │   ├── middleware/
+|   |   |
 │   │   └── auth.js
+|   |
 │   ├── config/
+|   |   |
 │   │   └── database.js
+|   |
 │   └── utils/
+|       |
 │       └── seedQuestions.js
+|
 ├── frontend/
+|   |
 │   ├── package.json
+|   |
 │   ├── .env
+|   |
 │   ├── public/
+|   |   |
 │   │   └── index.html
+|   |
 │   └── src/
+|       |
 │       ├── components/
+|       |   |
 │       │   ├── Auth/
+|       |   |
 │       │   ├── Dashboard/
+|       |   |
 │       │   ├── Exam/
+|       |   |
 │       │   └── Results/
+|       |
 │       ├── context/
+|       |   |
 │       │   └── AuthContext.js
+|       |
 │       ├── services/
+|       |   |
 │       │   └── api.js
+|       |
 │       ├── utils/
+|       |   |
 │       │   └── constants.js
+|       |
 │       ├── styles/
+|       |   |
 │       │   └── globals.css
+|       |
 │       ├── App.js
+|       |
 │       └── index.js
+|
 └── api-testing/
-    ├── postman-collection.json
-    └── curl-commands.md
+    |
+    |_ postman-collection.json
+
+    
 🎯 Usage Guide
 For Students
 
